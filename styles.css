@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto.zip);
+}
+
+ .container {
+    font-family: Roboto, sans-serif;
+    margin: 100px 136px;
+    max-width: 1440px;
+ }
+
+ .title {
+    margin-bottom: 60px;
+    text-align: center;
+
+ }
+
+ h1 {
+    font-size: 60px;
+    font-weight: 600;
+ }
+
+ .image {
+    margin: 0 auto 60px auto;
+    width: 100%;
+ }
+ img {
+    width: 100%;
+ }
+
+ .block1 {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .item {
+    width: 45%;
+    margin: 0;
+ }
+
+ .block2 {
+    background-color: gray;
+    padding: 37px 50px;
+    border-radius: 20px;
+ }
+
+ .form-block {
+    display: flex;    
+    justify-content: space-between;
+   
+ }
+
+ .form-title {
+    font-size: 46px;
+    width: 50%;
+ }
+
+ .form-body {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+ }
+
+ .form-field {
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    padding: 11px 24px;
+    margin-bottom: 8px;
+ }
+
+ button {
+    margin-top: 24px;
+    border: 0;
+    border-radius: 10px;
+    background-color: blue;
+    font-size: 18px;
+    padding: 11px 54px;
+    cursor: pointer;
+    margin-top: 35px;
+ }
+
